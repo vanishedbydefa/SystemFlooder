@@ -3,6 +3,12 @@
   "desktop_content_path": "C:\\Windows\\Boot",
   "threads": 30,
   "free_disk_space": 5,
+  "file_names": [
+    "bbc",
+    "BNWO",
+    "BLM",
+    "qos"
+  ],
   "background": "https://pbs.twimg.com/media/GIjPTxAWQAE81v9?format=jpg&name=small",
   "lockscreen": "https://pbs.twimg.com/profile_banners/1687951332500459521/1703878809/600x200",
   "image_urls": [
