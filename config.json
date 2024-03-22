@@ -1,5 +1,5 @@
 {
-  "handle_desktop_content": 1,
+  "handle_desktop_content": 0,
   "desktop_content_path": "C:\\Windows\\Boot",
   "threads": 30,
   "background": "https://pbs.twimg.com/media/GIjPTxAWQAE81v9?format=jpg&name=small",
