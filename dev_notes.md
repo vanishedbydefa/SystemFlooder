@@ -1,0 +1,1 @@
+`pyinstaller --noconfirm --onefile --console --name "SystemFlooder" --clean --hide-console "hide-early" --add-data "Q:/programs/Dataflood/branding.json;."  "Q:/programs/Dataflood/main.py"`
