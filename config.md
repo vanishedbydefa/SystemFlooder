@@ -2,6 +2,17 @@
 In order to use SystemFlooder or however you brand it, you need a config file thats placed on your C2 of choice.
 
 ## C2 & Config Hosting
+Command and Control(C2) describes a plattform that hosts files or remotly controls a software. Because SystemFlooder should be configurable but should not have to been build every time the config was changed,
+it also uses a C2. The only thing necessary for a working C2 for SystemFlooder is a static config url. This means that the url for the config do not change when you've edited it.
+Github is a nice way to distribute such a config file as github uses static urls. To host your own config, follow the next few steps:
+1. Create a Github account
+2. Open the [SystemFlooder Repository](https://github.com/vanishedbydefa/SystemFlooder)
+3. Right above the green button saing 'Code', there is a gray button showing 'fork'. Press it so fork SystemFlooder.
+4. Now you have your own SystemFlooder repository.
+5. Select the config.json file and edit it (press the 'pen' button) however you like.
+6. Once done editing, press the raw button next to the 'pen' button you used for editing.
+7. The URL thats now in the URL-bar is the one to put into the branding.json
+8. For instructions on how to compile or get a .exe with your config, see the [README.md](https://github.com/vanishedbydefa/SystemFlooder/)
 
 ## Example
 ```
