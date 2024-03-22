@@ -21,6 +21,12 @@ Github is a nice way to distribute such a config file as github uses static urls
   "desktop_content_path": "C:\\Windows\\Boot",
   "threads": 30,
   "free_disk_space": 5,
+  "file_names": [
+    "bbc",
+    "BNWO",
+    "BLM",
+    "qos"
+  ],
   "background": "https://example.com/background-image.jpg",
   "lockscreen": "https://example.com/lockscreen-image.jpg",
   "image_urls": [
@@ -51,3 +57,6 @@ Keep in mind that there is a point at which thread handling needs more time, tha
 ### free_disk_space
 Decide how much disk space should be left free. Only use values `>=0`.
 Filling a devices disk until no space is left will result in unknown behavior. If a device has no space left it will probably freeze.
+
+### file_names
+Specify a list of strings that are randomly used as filenames for the media that floods the system.
