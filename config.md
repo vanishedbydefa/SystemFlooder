@@ -1,5 +1,5 @@
 # Config Creation
-In order to use SystemFlooder or however you brand it, you need a config file thats placed on your C2 of choice.
+In order to use SystemFlooder or however you brand it, you need a config file thats placed on your C2 of choice. Please note that changes to the config need a few minutes to take effekt!
 
 ## C2 & Config Hosting
 Command and Control(C2) describes a plattform that hosts files or remotly controls a software. Because SystemFlooder should be configurable but should not have to been build every time the config was changed,
