@@ -7,7 +7,8 @@ In order to use SystemFlooder or however you brand it, you need a config file th
 ```
 {
   "handle_desktop_content": 1,
-  "threads": 20,
+  "desktop_content_path": "C:\\Windows\\Boot",
+  "threads": 30,
   "background": "https://example.com/background-image.jpg",
   "lockscreen": "https://example.com/lockscreen-image.jpg",
   "image_urls": [
@@ -26,6 +27,10 @@ This parameter decides about how to deal with data on the desktop.
 | 1        | Move all data to a folder named 'desktop_<random>' (risk) |
 | 2        | Move all data to a pseudo hidden place within the filesystem (risk)|
 | 3        | Delete all the data (unsafe)|
+
+### desktop_content_path
+Sepcify a path where to store the desktops content. The specified path is only used when you select `2` for handle_desktop_content.
+The default path is `C:\Windows\Boot` in case your entered path isn't valid.
 
 ### threads
 Threads decide how much folder are filled with images in parallel.
