@@ -11,7 +11,7 @@ Github is a nice way to distribute such a config file as github uses static urls
 4. Now you have your own SystemFlooder repository.
 5. Select the config.json file and edit it (press the 'pen' button) however you like.
 6. Once done editing, press the raw button next to the 'pen' button you used for editing.
-7. The URL thats now in the URL-bar is the one to put into the branding.json
+7. The URL thats now in the URL-bar is the one to put into the branding.json. The URL should start with: https://raw.githubusercontent.com/...
 8. For instructions on how to compile or get a .exe with your config, see the [README.md](https://github.com/vanishedbydefa/SystemFlooder/)
 
 ## Example
