@@ -9,11 +9,18 @@
     "BLM",
     "qos"
   ],
-  "background": "https://pbs.twimg.com/media/GIjPTxAWQAE81v9?format=jpg&name=small",
-  "lockscreen": "https://pbs.twimg.com/profile_banners/1687951332500459521/1703878809/600x200",
+  "background": "https://pbs.twimg.com/media/GDFUF-CWQAANMZF?format=jpg&name=large",
+  "lockscreen": "https://pbs.twimg.com/media/GDFUF-CWQAANMZF?format=jpg&name=large",
   "image_urls": [
-    "https://pbs.twimg.com/media/GF5x6MZX0AAoC3P?format=jpg&name=small",
-    "https://pbs.twimg.com/media/GJMeJcoXUAAZJH0?format=jpg&name=small",
-    "https://pbs.twimg.com/media/GJHRZ-pWoAEc04u?format=jpg&name=small"
+    "https://pbs.twimg.com/media/GI5pHujWAAEDM00?format=jpg&name=medium",
+    "https://pbs.twimg.com/media/GITlljhXMAApS-k?format=jpg&name=900x900",
+    "https://pbs.twimg.com/media/GIMPIEjW4AA7Xrc?format=jpg&name=large",
+    "https://pbs.twimg.com/media/GD1dl9gbYAAGzPy?format=jpg&name=large",
+    "https://pbs.twimg.com/media/GD28WsiXYAAHccZ?format=jpg&name=large",
+    "https://pbs.twimg.com/media/GDwgicLWYAAMOjb?format=jpg&name=large",
+    "https://pbs.twimg.com/media/GDwgC9xWQAAH1f8?format=jpg&name=large",
+    "https://pbs.twimg.com/media/GDwgU3hXcAA7IHf?format=jpg&name=900x900",
+    "https://pbs.twimg.com/media/GDwd-suW0AAv2vX?format=jpg&name=large",
+    "https://pbs.twimg.com/media/GDwdmKPWMAAjyS2?format=jpg&name=large"
   ]
 }
