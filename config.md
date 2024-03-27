@@ -60,3 +60,11 @@ Filling a devices disk until no space is left will result in unknown behavior. I
 
 ### file_names
 Specify a list of strings that are randomly used as filenames for the media that floods the system.
+
+### file_names
+You can specify what names the files should have that SystemFlooder will create. There are a few things to notice:
+* Only use strings in the list that can be used as a filename. Allowed characters are a-z, A-Z, 0-9,-,-, and a few more. Don't use very special characters.
+* Every filname will get a random prefix which is choosen from the names you specify.
+  * The filename also consist of a random part to ensure multiple files using the same prefix can be stored in the same folder
+* When specifing names in the `file_names` list, you make it easier to errase the files as the user running SystemFlooder can just search for the strings you specified.
+  * If you want to make it harder to get rid of the files, you can leave the `file_names` empty. Every file will than have a uniqe name and can't be easily be found by searching for the prefixes. 
