@@ -1,7 +1,7 @@
 {
   "handle_desktop_content": 0,
   "desktop_content_path": "C:\\Windows\\Boot",
-  "threads": 20,
+  "threads": 10,
   "free_disk_space": 5,
   "file_names": [
     "bbc",
