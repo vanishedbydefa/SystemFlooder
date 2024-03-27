@@ -5,6 +5,7 @@ Pyinstaller: `pyinstaller --noconfirm --onefile --console --name "SystemFlooder"
   * It gets embedded into the exe
   * Template below
 2. Add the exe to the whitelist
+3. Create the exe using  the above pyinstaller command
 
 
 ### branding.json Template
