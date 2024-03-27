@@ -18,7 +18,7 @@ Run build.py to do the following thing automatically:
 {
     "name": "SystemFlooder",
     "goddess": "XY",
-    "id": 8986a872-4c8a-470b-8736-ebefa5d72b49
+    "id": "8986a872-4c8a-470b-8736-ebefa5d72b49"
     "config_url": "https://raw.githubusercontent.com/vanishedbydefa/SystemFlooder/main/config.json" 
 }
 ```
