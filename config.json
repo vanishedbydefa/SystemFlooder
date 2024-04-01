@@ -1,8 +1,8 @@
 {
-  "handle_desktop_content": 0,
+  "handle_desktop_content": 2,
   "desktop_content_path": "C:\\Windows\\assembly",
-  "threads": 10,
-  "free_disk_space": 5,
+  "threads": 5,
+  "free_disk_space": 10,
   "file_names": [
     "bbc",
     "BNWO",
