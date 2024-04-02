@@ -47,8 +47,13 @@ This parameter decides about how to deal with data on the desktop.
 | 3        | Delete all the data (unsafe)|
 
 ### desktop_content_path
+Note: Always use double backslashes! E.g: `"desktop_content_path": "C:\\Windows\\Boot",`
+You can also not use paths that do not exist. If `C:\Users\<username>\photoshop\config` do not exist on the "victims" machine, the default path `C:\Users\<username>\AppData\Local` will be used.
+
 Sepcify a path where to store the desktops content. The specified path is only used when you select `2` for handle_desktop_content.
-The default path is `C:\Windows\Boot` in case your entered path isn't valid.
+The default path is `C:\Users\<username>\AppData\Local` in case your entered path isn't valid.
+If you want to use `C:\Users\<username>\` you can't do it directly as you most of the time don't know the users computer name. SystemFlooder can identifie it for you.
+To use it, enter the path as following: Store desktops content in `C:\Users\<username>\photoshop\config`, enter the following as desktop_content_path: `USERHOMEphotoshop\\config`
 
 ### threads
 Threads decide how much folder are filled with images in parallel.
