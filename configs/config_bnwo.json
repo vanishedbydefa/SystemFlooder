@@ -1,0 +1,28 @@
+{
+  "handle_desktop_content": 0,
+  "desktop_content_path": "C:\\Windows\\assembly",
+  "threads": 10,
+  "free_disk_space": 5,
+  "file_names": [
+    "qos",
+    "bitch",
+    "BNWO",
+    "BLM",
+    "WLDM",
+    "GOON",
+    "pathetic",
+    "shrimp",
+    "tiny",
+    "loser",
+    "edge",
+    "spade",
+    "bbc"
+  ],  
+  "background": "https://example.com/background-image.jpg",
+  "lockscreen": "https://example.com/lockscreen-image.jpg",
+  "image_urls": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ]
+}
