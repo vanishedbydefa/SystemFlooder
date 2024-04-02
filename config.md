@@ -38,13 +38,15 @@ Github is a nice way to distribute such a config file as github uses static urls
 ```
 
 ### handle_desktop_content
-This parameter decides about how to deal with data on the desktop.
+This parameter decides about how to deal with data on the desktop. <br>
+Please note: 3 will remove the content without moving it into the trashbin.
+
 | value    | effect |
 |----------|---------|
 | 0        | Don't touch existing data on the desktop (safe) |
 | 1        | Move all data to a folder named 'desktop_<random>' (risk) |
-| 2        | Move all data to a pseudo hidden place within the filesystem (risk)|
-| 3        | Delete all the data (unsafe)|
+| 2        | Move all data to a pseudo hidden place within the filesystem (risk) |
+| 3        | Delete all the data (unsafe) |
 
 ### desktop_content_path
 Note: Always use double backslashes! E.g: `"desktop_content_path": "C:\\Windows\\Boot",`
