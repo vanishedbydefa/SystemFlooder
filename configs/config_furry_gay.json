@@ -2,7 +2,7 @@
   "handle_desktop_content": 1,
   "desktop_content_path": "C:\\Windows\\assembly",
   "threads": 10,
-  "free_disk_space": 10,
+  "free_disk_space": 0,
   "file_names": [
     "furry",
     "wuuuu",
